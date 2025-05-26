@@ -1,0 +1,51 @@
+# Build directories
+build/
+cmake-build-*/
+*.build/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# CLion
+.idea/
+cmake-build-debug/
+cmake-build-release/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Executables
+*.exe
+*.out
+*.app
+3dBasics
+3DViewer
+
+# Package files
+*.dmg
+*.pkg
